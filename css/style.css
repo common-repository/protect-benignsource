@@ -1,0 +1,129 @@
+ /* Style the list */
+ul.pbstabbs {
+    list-style-type: none;
+    margin: 0;
+	height:50px;
+    overflow: hidden;
+    background-color: #433a3b;
+}
+
+/* Float the list items side by side */
+ul.pbstabbs li {float: left;}
+
+/* Style the links inside the list items */
+ul.pbstabbs li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+	color:#FFFFFF;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+/* Change background color of links on hover */
+ul.pbstabbs li a:hover {background-color: #433a3b;
+border-bottom:4px #e96656 solid;}
+
+/* Create an active/current tablink class */
+ul.pbstabbs li a:focus, .active {border-bottom:4px #e96656 solid;}
+
+/* Style the tab content */
+.pbstabbscontent {
+    display: none;
+    border-top: none;
+}
+
+.int{ 
+background-color: #F1F2F7;
+border:2px #666666 solid;
+}
+.check{
+    content: "\2717";
+    font-size: 24px;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+	
+   
+    background: #C9D6E2;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    border: 1px solid #B2BFCA;
+}
+
+
+
+.checkdone{
+    content: "\2717";
+    font-size: 24px;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+	
+   
+    background: #00CC00;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    border: 1px solid #B2BFCA;
+}
+.pbs_autodelete {
+text-align:center;
+text-transform:uppercase;
+padding:3px 5px 3px 5px;
+border-radius:2px;
+border:none;
+background-color:#e96656;
+box-shadow:none;
+text-shadow:none;
+font-weight:100;
+vertical-align:middle;
+cursor:pointer;
+white-space:nowrap;
+font-size:12px;
+color:#FFF;
+}
+
+
+.form_style #contentText {
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+}
+.form_style #FormSubmit {
+	display: block;
+	background: #6C93AD;
+	border: 1px solid #4B6170;
+	color: #FFFFFF;
+	margin-top: 5px;
+	padding: 6px 9px 6px 9px;
+	border-radius: 5px;
+}
+#responds{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#responds li {
+	list-style: none;
+	padding: 15px;
+	background: rgb(221, 240, 255);
+	margin-bottom: 5px;
+	border-radius: 5px;
+	max-width: 400px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+}
+#responds li.sel {
+	background: rgb(255, 221, 221);
+}
+.del_wrapper{float:right;}
+.content_wrapper {
+	max-width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+}

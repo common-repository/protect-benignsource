@@ -1,0 +1,18 @@
+Protect BenignSource v1.0 For WordPress
+http://www.benignsource.com/
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+    Copy Protect BenignSource in your plugin directory
+    In your WordPress administration, go to the Plugins page
+    Activate the Protect BenignSource plugin and a subpage for the plugin will appear in your Manage menu.
+    Go to the Settings > Protect BenignSource and make the settings step by step
+
+   That is all :)
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+If you need help or advice, we are ready to help you!
+http://www.benignsource.com/
